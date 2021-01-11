@@ -13,6 +13,10 @@
 		0057C47F25AC45900084BB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0057C47E25AC45900084BB22 /* Assets.xcassets */; };
 		0057C48225AC45900084BB22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0057C48125AC45900084BB22 /* Preview Assets.xcassets */; };
 		0057C48525AC45900084BB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0057C48325AC45900084BB22 /* LaunchScreen.storyboard */; };
+		0057C49225AC498E0084BB22 /* BindingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057C49125AC498E0084BB22 /* BindingData.swift */; };
+		0057C49525AC4C910084BB22 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057C49425AC4C910084BB22 /* Model.swift */; };
+		0057C49825AC4F4E0084BB22 /* ObserveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057C49725AC4F4E0084BB22 /* ObserveData.swift */; };
+		0057C49C25AC52A90084BB22 /* EnvironmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057C49B25AC52A90084BB22 /* EnvironmentData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0057C48125AC45900084BB22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0057C48425AC45900084BB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0057C48625AC45900084BB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0057C49125AC498E0084BB22 /* BindingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingData.swift; sourceTree = "<group>"; };
+		0057C49425AC4C910084BB22 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0057C49725AC4F4E0084BB22 /* ObserveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserveData.swift; sourceTree = "<group>"; };
+		0057C49B25AC52A90084BB22 /* EnvironmentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				0057C47825AC458B0084BB22 /* AppDelegate.swift */,
 				0057C47A25AC458B0084BB22 /* SceneDelegate.swift */,
 				0057C47C25AC458B0084BB22 /* ContentView.swift */,
+				0057C49125AC498E0084BB22 /* BindingData.swift */,
+				0057C49725AC4F4E0084BB22 /* ObserveData.swift */,
+				0057C49B25AC52A90084BB22 /* EnvironmentData.swift */,
 				0057C47E25AC45900084BB22 /* Assets.xcassets */,
 				0057C48325AC45900084BB22 /* LaunchScreen.storyboard */,
 				0057C48625AC45900084BB22 /* Info.plist */,
 				0057C48025AC45900084BB22 /* Preview Content */,
+				0057C49425AC4C910084BB22 /* Model.swift */,
 			);
 			path = DataStreamDemo;
 			sourceTree = "<group>";
@@ -145,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0057C49825AC4F4E0084BB22 /* ObserveData.swift in Sources */,
+				0057C49C25AC52A90084BB22 /* EnvironmentData.swift in Sources */,
+				0057C49525AC4C910084BB22 /* Model.swift in Sources */,
 				0057C47925AC458B0084BB22 /* AppDelegate.swift in Sources */,
+				0057C49225AC498E0084BB22 /* BindingData.swift in Sources */,
 				0057C47B25AC458B0084BB22 /* SceneDelegate.swift in Sources */,
 				0057C47D25AC458B0084BB22 /* ContentView.swift in Sources */,
 			);
